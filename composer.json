@@ -1,0 +1,21 @@
+{
+    "name": "aldrumo/default-theme",
+    "description": "Default Aldrumo theme",
+    "type": "aldrumo-theme",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mike Barlow",
+            "email": "mike@mikebarlow.co.uk"
+        }
+    ],
+    "require": {
+        "php": "^7.3",
+        "aldrumo/theme-manager": "0.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Aldrumo\\DefaultTheme\\": "src/"
+        }
+    }
+}
