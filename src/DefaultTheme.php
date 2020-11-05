@@ -10,7 +10,7 @@ class DefaultTheme extends ThemeBase
     /** @var string */
     protected $viewsPath = '/../resources/views';
 
-    public function boot()
+    public function boot(): void
     {
         parent::boot();
         Blade::componentNamespace('Aldrumo\\DefaultTheme\\Views\\Components', 'DefaultTheme');
