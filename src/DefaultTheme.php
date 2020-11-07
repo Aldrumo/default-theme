@@ -14,5 +14,12 @@ class DefaultTheme extends ThemeBase
     {
         parent::boot();
         Blade::componentNamespace('Aldrumo\\DefaultTheme\\Views\\Components', 'DefaultTheme');
+
+        $this->publishes(
+            [
+                __DIR__.'/path/to/assets' => public_path('aldrumo/default-theme'),
+            ],
+            'aldrumo-public'
+        );
     }
 }
