@@ -13,7 +13,7 @@ class DefaultTheme extends ThemeBase
     public function boot(): void
     {
         parent::boot();
-        Blade::componentNamespace('Aldrumo\\DefaultTheme\\Views\\Components', 'DefaultTheme');
+        Blade::componentNamespace('Aldrumo\\DefaultTheme\\View\\Components', 'DefaultTheme');
 
         $this->publishes(
             [
