@@ -17,7 +17,7 @@ class DefaultTheme extends ThemeBase
 
         $this->serviceProvider->setPublishes(
             [
-                __DIR__.'/path/to/assets' => public_path('aldrumo/default-theme'),
+                __DIR__ . '/../resources/dist' => public_path('aldrumo/default-theme'),
             ],
             'aldrumo-public'
         );
