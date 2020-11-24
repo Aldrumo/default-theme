@@ -11,7 +11,7 @@
     ],
     "require": {
         "php": "^7.3",
-        "aldrumo/theme-manager": "0.*"
+        "aldrumo/theme-manager": "dev-main"
     },
     "autoload": {
         "psr-4": {
