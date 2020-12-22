@@ -10,19 +10,19 @@
             <div class="bg-white overflow-hidden shadow-xl sm:rounded-lg">
                 <div class="flex">
                     <div class="flex-grow">
-                        <x-Blocks::renderer>
+                        <x-Blocks::renderer key="sidebar">
                             Left Col
                         </x-Blocks::renderer>
                     </div>
 
                     <div class="flex-grow">
-                        <x-Blocks::renderer>
+                        <x-Blocks::renderer key="mainbody">
                             Middle Col
                         </x-Blocks::renderer>
                     </div>
 
                     <div class="flex-grow">
-                        <x-Blocks::renderer>
+                        <x-Blocks::renderer key="right-sidebar">
                             Right Col
                         </x-Blocks::renderer>
                     </div>

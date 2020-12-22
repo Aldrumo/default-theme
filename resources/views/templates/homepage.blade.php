@@ -10,7 +10,7 @@
             <div class="bg-white overflow-hidden shadow-xl sm:rounded-lg">
                 <div class="flex">
                     <div class="flex-grow">
-                        <x-Blocks::renderer>
+                        <x-Blocks::renderer key="sidebar">
                             Left Col
                         </x-Blocks::renderer>
                     </div>
@@ -18,8 +18,7 @@
                     <div class="flex-grow">
                         <h1>Homepage</h1>
 
-
-                        <x-Blocks::renderer>
+                        <x-Blocks::renderer key="mainbody">
                             Some hompage stuff here
                         </x-Blocks::renderer>
                     </div>
