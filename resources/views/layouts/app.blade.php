@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link href="{{ secure_url('aldrumo/default-theme/site.css') }}" rel="stylesheet">
+        <link href="{{ secure_url('aldrumo/default-theme/css/site.css') }}" rel="stylesheet">
 
         <title>{{ !empty($page) ? $page->title : '' }}{{ config('app.name') }}</title>
     </head>
