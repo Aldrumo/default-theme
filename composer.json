@@ -18,6 +18,7 @@
             "Aldrumo\\DefaultTheme\\": "src/"
         }
     },
+    "minimum-stability": "dev",
     "extra": {
         "laravel": {
             "providers": [
