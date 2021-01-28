@@ -11,14 +11,13 @@
     ],
     "require": {
         "php": "^7.3",
-        "aldrumo/theme-manager": "dev-main"
+        "aldrumo/theme-manager": "^0.1"
     },
     "autoload": {
         "psr-4": {
             "Aldrumo\\DefaultTheme\\": "src/"
         }
     },
-    "minimum-stability": "dev",
     "extra": {
         "laravel": {
             "providers": [
